@@ -12,13 +12,18 @@ background-color: black;
 color: white;
 text-align: center;">
 }
-.container1 {
+.divisa {
 background-color: #DEECDF;
 }
-h1, p, h2 {
+h1, .eu, h2, .titulo {
   font-family: arial black;
   font-size: 20px;
   text-align: center;
+}
+li {
+list-style-type: circle;
+font-family: verdanda;
+font-size: 20px;
 }
 #excla {
   color: white;
@@ -90,9 +95,4 @@ h1, p, h2 {
 	line-height:35px;
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
-}
-.titulo {
-text-align: center;
-font-size: 20px;
-font-family: verdana;
 }
